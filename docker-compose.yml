@@ -1,8 +1,8 @@
-version: '3.8'
+version: '3'
 services:
   autoheal:
-    restart: always
     image: willfarrell/autoheal:latest
+    restart: always
     environment:
       - AUTOHEAL_CONTAINER_LABEL=all
     volumes:
