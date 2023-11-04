@@ -7,7 +7,7 @@ services:
       - AUTOHEAL_CONTAINER_LABEL=all
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-  portainer-agent:
+  portainer:
     image: portainer/agent:latest
     restart: always
     ports:
